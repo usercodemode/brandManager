@@ -70,9 +70,6 @@ and for Tailwind CSS you can use:
 npm run dev
 ```
 
-
-```
-
 and for Tailwind CSS you can use:
 
 ```
