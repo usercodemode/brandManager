@@ -71,9 +71,20 @@ npm run dev
 ```
 
 
+```
+
+and for Tailwind CSS you can use:
+
+```
+npm run dev
+```
+
+URL 
+- https://yoursite/admin for login
+- https://yoursite/register for registration
+
+
 For more info you can visit laravel official website.
 
-This project was tested on Linux Mint and in case you 
-find any error or issues while executing above commands then try installing your own sample laravel project 
-and copy only main folders and files from this project (example resources, models, migration, controllers, web.php)
+This project was tested on Linux Mint and in case while executing above commands you find some issues or errors then you can try installing your own laravel sample project then use the required folders and files from this project (example resources, models, migration, controllers, web.php)
 and then try above commands.
