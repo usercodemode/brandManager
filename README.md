@@ -154,5 +154,5 @@ For more info you can visit laravel official website.
 
 This project was tested on Linux Mint and in case you 
 find any error or issues while executing above commands then try installing your own sample laravel project 
-and copy only main folders and files from this project (example resources, models, migration, controllers, web.php)
+then use required folders and files from this project (example resources, models, migration, controllers, web.php)
 and then try above commands.
