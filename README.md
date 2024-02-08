@@ -4,10 +4,6 @@ GitHub: @usercodemode (https://github.com/usercodemode)
 
 <h3>Home Page</h3>
 
-![bm-index](https://github.com/usercodemode/brandManager/assets/147582140/341c13dd-1a87-465e-8d3b-2eb550e43fd8)
-
-![bm-home](https://github.com/usercodemode/brandManager/assets/147582140/fa5dc818-0288-471e-b009-d25df55bGitHub: @usercodemode (https://github.com/usercodemode)
-
 <h1>Laravel Brand Manager Project</h1>
 
 <h3>Home Page</h3>
