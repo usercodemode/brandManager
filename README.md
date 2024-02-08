@@ -70,12 +70,6 @@ and for Tailwind CSS you can use:
 npm run dev
 ```
 
-and for Tailwind CSS you can use:
-
-```
-npm run dev
-```
-
 You can use URL(s):
 - https://yoursite/admin for login
 - https://yoursite/register for registration
