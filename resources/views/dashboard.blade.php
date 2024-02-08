@@ -107,11 +107,13 @@
 
                 @foreach ($brands as $brand)
                     <a href="{{ '/edit/' . $brand->id }}"
-                        class="p-2 text-center bg-white rounded-lg shadow-md hover:bg-gray-200">
-                        <img src="{{ asset('images/' . $brand->brandLogo) }}" class="p-1" />
+                        class="p-4 text-center bg-white rounded-lg shadow-md hover:bg-gray-200">
 
                         <p class="sm:text-2xl">{{ $brand->brandName }}</p>
-                        <p class="hidden text-xs md:text-sm italic text-blue-500 sm:block">{{ $brand->brandSite }}</p>
+
+                        <img src="{{ asset('images/' . $brand->brandLogo) }}" class="p-1 md:p-4" />
+
+                        <p class="hidden text-xs md:text-sm italic text-blue-500">{{ $brand->brandSite }}</p>
                     </a>
                 @endforeach
 

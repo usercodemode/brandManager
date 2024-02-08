@@ -67,9 +67,6 @@
                                 </div>
                             @enderror
 
-
-
-
                             <span class="block text-sm font-medium text-slate-700">Upload Image</span>
                             <!-- Using form state modifiers, the classes can be identical for every input -->
                             <input type="file" name="brandLogo" placeholder="..." value="{{ old('brandLogo') }}"
@@ -85,7 +82,7 @@
 
 
                             <button
-                                class="bg-blue-600 hover:bg-blue-800 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-white fw-bold rounded-md mt-5 p-2">
+                                class="p-2 mt-5 text-white bg-blue-600 rounded-md hover:bg-blue-800 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 fw-bold">
                                 UPDATE
                             </button>
 
@@ -97,7 +94,7 @@
                         @csrf
                         @method('DELETE')
                         <button type="submit"
-                            class="px-4 py-2 bg-gray-600 hover:bg-gray-800 active:bg-gray-700 focus:outline-none focus:ring focus:ring-violet-300 text-white fw-bold rounded-md mt-2">DELETE</button>
+                            class="px-4 py-2 mt-2 text-white bg-gray-600 rounded-md hover:bg-gray-800 active:bg-gray-700 focus:outline-none focus:ring focus:ring-violet-300 fw-bold">DELETE</button>
                     </form>
 
                 </div>
@@ -106,11 +103,13 @@
             <div class="grid grid-cols-2 gap-4 p-4 sm:grid-cols-3 md:grid-cols-4">
 
 
-                <a href="{{ $brand->brandSite }}" class="p-2 text-center bg-white rounded-lg shadow-md hover:bg-gray-200">
-                    <img src="{{ asset('images/' . $brand->brandLogo) }}" class="p-1" />
-    
+                <a href="{{ $brand->brandSite }}" class="p-4 text-center bg-white rounded-lg shadow-md hover:bg-gray-200">
+
                     <p class="sm:text-2xl">{{ $brand->brandName }}</p>
-                    <p class="hidden text-xs italic text-blue-500 sm:block">{{ $brand->brandSite }}</p>
+
+                    <img src="{{ asset('images/' . $brand->brandLogo) }}" class="p-1 md:p-4" />
+    
+                    <p class="hidden text-xs italic text-blue-500">{{ $brand->brandSite }}</p>
                 </a>
 
 
