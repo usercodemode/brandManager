@@ -18,9 +18,9 @@ GitHub: @usercodemode (https://github.com/usercodemode)
 
 <h3>Dashboard Page</h3>
 
-![bm-dashboard](https://github.com/usercodemode/brandManager/assets/147582140/3f46d26b-faa2-44f8-a81a-8caa15598bc6)
+![bm-dashboard](https://github.com/usercodemode/brandManager/assets/147582140/662861fe-b287-45c8-a5ff-aba31f2b3279)
 
-![bm-dashboard-2](https://github.com/usercodemode/brandManager/assets/147582140/662861fe-b287-45c8-a5ff-aba31f2b3279)
+![bm-dashboard-2](https://github.com/usercodemode/brandManager/assets/147582140/3f46d26b-faa2-44f8-a81a-8caa15598bc6)
 
 <h3>Update & Delete Feature</h3>
 
