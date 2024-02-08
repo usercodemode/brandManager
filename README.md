@@ -26,7 +26,7 @@ GitHub: @usercodemode (https://github.com/usercodemode)
 
 ![bm-edit](https://github.com/usercodemode/brandManager/assets/147582140/aebf17c1-e89d-4a6d-804a-21dcaebc7234)
 
-<h1>Some Basic Commands & Instruction</h1>
+<h1>Some Basic Commands & Instructions</h1>
 
 Download zip or git clone
 
@@ -76,7 +76,7 @@ and for Tailwind CSS you can use:
 npm run dev
 ```
 
-URL 
+You can use URL(s):
 - https://yoursite/admin for login
 - https://yoursite/register for registration
 
